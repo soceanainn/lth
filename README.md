@@ -1,10 +1,9 @@
-# Fáilte go lth - Teanga Ríomheolaíochta trí Ghaeilge
+# Fáilte go `lth` - Teanga Ríomheolaíochta trí Ghaeilge
 Is féidir leathanaigh suíomh idirlíne a ghineadh tríd lth a úsáid.
 
-Chun tosú, déan íoslódáil ar an fillteán seo agus oscail `lth.html`. Is féidir lth a scríobh i do bhrabhsálaí, agus an leathanach a ghineann sé a íoslódáil.
-Déan an leathanach HTML a ghintear a íoslódáil chuig an fillteán céanna le `lth.html` ionas go bpioctar suas an stíl ceart.
+Chun tosú, déan íoslódáil ar an fillteán seo agus oscail `lth.html`. Is féidir `lth` a scríobh i do bhrabhsálaí, agus do leathanach HTML féin a íoslódáil!
 
-Tá lth thar a bheith éasca le scríobh - tosaigh le `lth { }` agus cur breis gnéithe taobh istigh de na lúibíní `{ }`.
+Tá `lth` thar a bheith éasca le scríobh - tosaigh le `lth { }` agus cur breis gnéithe taobh istigh de na lúibíní `{ }`.
 Tá liosta de na gnéithe ar fad faoi seo, agus tugtha san uirlis féin.
 
 Roinnt rialacha:
@@ -41,4 +40,3 @@ go ghintear sna comhaid `html`. Is féidir ceann de na comhaid `txt` a úsáid c
 
 ## Teagmháil
 Má tá spéis agat teagmháil a dhéanamh liom [seol ríomhphost chugam](mailto:seamusoceanainn@gmail.com) le aon fadhbanna, deacrachtaí, smaointe nó ceartúcháin.
-
