@@ -1,0 +1,337 @@
+<!doctype html>
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>lth - Leathanach</title>
+    <meta name="description" content="Dearthóir Suíomh Gaelach">
+    <meta name="author" content="Séamus Ó Ceanainn">
+    <link rel="shortcut icon" href="http://www.iconj.com/icon.php?pid=cqtnf03jj5" type="image/x-icon" />
+    <link rel = "stylesheet" type = "text/css" href = "achmhainn/style.css" />
+    <style>
+        #input {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f0f0f0;
+            border: 0.5px;
+            border-style: solid;
+            border-color: #555555;
+            width: 50%;
+            margin-left: 5%;
+            float: left;
+            min-height: 80vh; 
+            height: 100%;
+            word-break: break-all;
+            white-space: pre-wrap; 
+        }
+        
+    	#instructions {
+        	padding: 20px;
+            margin: 20px;
+            background-color: #f0f0f0;
+            border: 0.5px;
+            border-style: solid;
+            border-color: #555555;
+            width: 25%;
+            margin-right: 5%;
+            float: right;
+            min-height: 80vh; 
+        }
+        
+        #buttons {
+        	margin-left: 5%;
+        }
+        
+        .button {
+        	float: left;
+        	width: 20%;
+        	padding: 5px;
+        	margin-left: 5%;
+        	background-color: #f0f0f0;
+            border: 0.5px;
+            border-style: solid;
+            border-color: #555555;
+            text-align: center;
+        }
+        
+        .button:hover {
+        	background-color: #fafafa;
+        	text-decoration: underline;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div id="pusher">
+        <div id="input" contenteditable>lth {
+	eolas {
+		ainm { Mo Shuíomh Idirlíon }
+       	cursíos { Suíomh Samplach } 
+		údar { Séamus Ó Ceanainn }
+        deilbhín { http://www.iconj.com/icon.php?pid=cqtnf03jj5 }
+    }
+	corp {
+    	ceann {
+    		teideal {
+    			uimhir { 1 }
+        		nasc {
+        			seoladh { #	}
+    				g { Sampla de lth }
+    			}
+        	}
+        }
+        croí {
+        	alt {
+        		g { Seo roinnt téacs i gcorp an leathanach féin, leanta ag íomhá. }
+        	}
+			íomhá { 
+				seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg }
+			}
+		}
+		croí {
+        	alt {
+        		g { Is féidir íomhá a chur taobh istigh de nasc ionas gur féidir cliceáil ar an íomha chun gluaiseacht chuig suíomh eile }
+        	}
+        	nasc {
+        		seoladh { # }
+        		íomhá { 
+        			seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg } 
+        		 }
+        	}
+        	
+        }
+        cos {
+        	alt {
+        		g { Tá an leathanach seo ginnte ag úsáid }
+        		nasc {
+        			seoladh { # }
+        			g { lth }
+        		}
+        	}
+        }
+    }
+}</div>
+        <div id="instructions">
+        <h2> Gnéithe: </h2>
+        	<p><b>- lth:</b> An leathanach féin. Téann gach rud istigh anseo. Glacann sé le <i>[eolas, corp]</i></p>
+        	<p><b>- eolas:</b> Eolas faoin leathanach. Níl sé seo sofheicthe ar an leathanach féin. Glacann sé le <i>[ainm, cursíos, údar, deilbhín]</i></p>
+        	<p><b>- ainm:</b> Ainm an leathanaigh féin. Bun gné í seo a ghlacann le téacs</p>
+        	<p><b>- cursíos:</b> Cur síos ar an leathanach. Bun gné í seo a ghlacann le téacs</p>
+        	<p><b>- údar:</b> Do ainm féin. Bun gné é seo a ghlacann le téacs</p>
+        	<p><b>- deilbhín:</b> Nasc chuig do dheilbhín féin. Bun gné í seo a ghlacann le seoladh i bhfoirm URL</p>
+        	<p><b>- corp:</b> Corp an leathanch féin (an cuid sofheicthe). Glacann sé le <i>[bosca, ceann, croí, cos]</i></p>
+        	<p><b>- bosca:</b> Bosca ar an leathanach gur féidir ábhair a chur ann. Glacann le <i>[teideal, ailt]</i></p>
+        	<p><b>- ceann:</b> Bosca réamhdéanta do bharr an leathanaigh. Úsáid in éineacht le cos & croí. Glacann na gnéithe céanna le bosca.</p>
+        	<p><b>- croí:</b> Bosca réamhdéanta do chroí an leathanaigh. Úsáid in éineacht le ceann & cos.Glacann na gnéithe céanna le bosca.</p>
+        	<p><b>- cos:</b>  Bosca réamhdéanta do chos an leathanaigh.Úsáid in éineacht le ceann & croí. Glacann na gnéithe céanna le bosca.</p>
+        	<p><b>- alt:</b> Alt nua. Glacann sé le <i>[nasc, íomhá, g,t,l,b]</i></p>
+        	<p><b>- teideal:</b> Teideal nó fotheideal. Is gá tosú le 'uimhir'. Glacann le <i>[uimhir, nasc, g, t, l, b]</i></p>
+        	<p><b>- íomhá:</b> Íomhá (pictiúr). Déantar an íomhá a lódáil ón URL tugtha in 'seoladh'. Glacann le <i>[seoladh]</i> amháin.</p>
+        	<p><b>- nasc:</b> Nasc chuig leathanach eile. Is gá tosú le 'seoladh'. Glacann le <i>[seoladh, íomhá, g, t, l, b]</i></p>
+        	<p><b>- seoladh:</b> Bun gné í seo a ghlacann le téacs i bhfoirm 'URL'. Úsáid 'mailto:</b>mosheoladh@gmail.com' chun nasc teagmhála a chruthú.</p>
+        	<p><b>- uimhir:</b> Bun gné í seo a ghlacann le uimhir idir 1-6 don teideal (1 is mó, 6 is lú).</p>
+        	<p><b>- g:</b> Gnáth-théacs. Bun gné é seo a ghlacann le téacs</p>
+        	<p><b>- t:</b> Téacs 'trom'. Bun gné é seo a ghlacann le téacs</p>
+        	<p><b>- l:</b> Téacs 'lag'. Bun gné é seo a ghlacann le téacs</p>
+        	<p><b>- b:</b> Téacs le 'béim'. Bun gné é seo a ghlacann le téacs</p>
+        </div>
+    </div>
+    <div id="buttons">
+    	<div class="button" onclick="check()">Seiceáil</div>
+    	<div class="button" onclick="download()">Íoslódáil</div>
+    </div>
+    <footer>
+        <a href="mailto:seamusoceanainn@gmail.com"> seamusoceanainn@gmail.com</a>
+    </footer>
+  </body>
+
+  <script type="text/javascript" src="achmhainn/style.js"></script>
+  <script>
+	let download = function(){
+		let result = output();
+		if (result.isError()) alert(result.errors);
+		else {
+			let title = result.html.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+			let blob = new Blob(["\ufeff", result.html], {type: 'text/html;charset=ISO-8859-1'});
+			let fileUrl = URL.createObjectURL(blob);
+			let element = document.createElement('a');
+		  	element.setAttribute('href', fileUrl);
+		  	element.setAttribute('download', title.trim() + ".html");
+
+		  	element.style.display = 'none';
+		  	document.body.appendChild(element);
+		  	element.click();
+		  	document.body.removeChild(element);
+			
+		}
+	}
+	
+	let check = function(){
+		let result = output();
+		if (result.isError()) alert(result.errors);
+		else alert("Go maith, níl aon botúin!");
+	}
+	
+  	function Thing(name, members, prefix, suffix){
+  		this.name = name;
+  		this.members = members;
+  		this.prefix = prefix;
+  		this.suffix = suffix;
+
+  		this.type = "thing";
+  		
+  		this.members.toString = function(){
+  			let out = "[";
+  			members.forEach(function(member) {
+  				out += member.name + ", ";
+  			});
+  			return out + "]";
+  		};
+  		this.toString = function(){ return "Gné: " + name + ", Baill: " + members; };
+		this.is_in = function(member) {
+  			return members.contains(member);
+  		}
+
+  	}
+  	
+  	function Things(members){
+  		this.value = members;
+  		
+  		this.toString
+  	}
+  	
+  	function Base(name, validation, prefix, suffix){
+  		this.name = name;
+  		this.validation = validation;
+  		this.prefix = prefix;
+  		this.suffix = suffix;
+  		
+  		this.toString = function(){ return "Gné: " + name + ", Bailíochtú: " + validation; };
+  		this.check = function(text){
+  			return validation(text);
+  		}
+  	}
+  	
+  	let style = new Thing("style", []);
+  	
+  	let urlValidation = function(text){ return true; };
+  	let textValidation = function(text){ return true; };
+  	let numberValidation = function(num){ return parseInt(num) >= 1 && parseInt(num) <= 6 };
+  	
+  	let number = new Base("uimhir", numberValidation);
+  	let url = new Base("seoladh", urlValidation, '"', '"');
+  
+	let p = new Base("g", textValidation, "", "", []); // Plaintext
+	let b = new Base("t", textValidation, "<b>", "</b>", []);
+  	let i = new Base("l", textValidation, "<i>", "</i>", []);
+  	let u = new Base("b", textValidation, "<u>", "</u>", []);
+  		
+  	let image = new Thing("íomhá", [url], '<img src=', '/>');
+  	let link = new Thing("nasc", [url, image, p, b, i, u], "", "");
+  	
+  	let paragraph = new Thing("alt", [link, p, b, i, u], "<p>", "</p>");
+  	let title = new Thing("teideal", [number, link, p, b, i, u], "", "");
+  	
+  	hasArgs = [title, link];
+  	
+  	let box = new Thing("bosca", [paragraph, title, image, link], "<div>", "</div>");
+  	let head = new Thing("ceann", [paragraph, title, image, link], '<header>', "</header>");
+  	let heart = new Thing("croí", [paragraph, title, image, link], '<div id="mainContent">', "</div>");
+  	let foot = new Thing("cos", [paragraph, title, image, link], "</div><footer>", "</footer>");
+  	
+  	let body = new Thing("corp", [head, heart, foot],'<body><div id = "pusher">', "</body>");
+  	
+  	let name = new Base("ainm",  textValidation, '<title>', '</title>');
+  	let description = new Base("cursíos",  textValidation, '<meta name="description" content="', '">');
+  	let author = new Base("údar",  textValidation, '<meta name="author" content="', '">');
+  	let icon = new Base("deilbhín", urlValidation, '<link rel="shortcut icon" href="', '" type="image/x-icon" />');
+  	let info = new Thing("eolas", [name, description, author, icon, style], '<head><meta charset="ISO-8859-1">','<style>' + stylesheet +'</style></head>');
+  
+  	let page = new Thing("lth", [info, body], "<!doctype html>", "</html>");
+
+  	function output(){
+  		input = document.getElementById("input").innerHTML.trim();
+  		if (input.indexOf("cos {") == -1) body.suffix = '</div></body>';
+  		if (input.indexOf("croí {") == -1) body.prefix = '<body id=normal-body><div id = "pusher">';
+  		if (input.indexOf("ainm {") == -1) return new EitherOf("Fadhb: caithfear ainm a thabhairt don leathanach", null);
+  		
+  		return generate([page], input, false);
+  	}
+  	
+  	function EitherOf(errors, html){
+  		this.errors = errors;
+  		this.html = html;
+  		
+  		this.isError = function() { return errors != null; };
+  	}
+  	
+  	function generate(items, text, alreadyFound){
+  		text = text.trim();
+  		let html = '';
+  		for (item2 in items){
+  			let item = items[item2];
+  			let prefix = item.name + " {"
+  			if (text.startsWith(prefix)){
+  				html += item.prefix;
+  				let suffix = item.suffix;
+  				text = text.substring(prefix.length).trim();
+  				let close = calculateClose(text, 0, 0); 
+  				if (close == -1) return new EitherOf("Fadhb: ag súl le lúibín dúnadh '}' do " + item.name + " i(n): " + text, null);
+  				let content = text.substring(0, close).trim();
+  				text = text.substring(close + 1).trim();
+  				if (item.type == "thing") {
+  					let result = hasArgs.includes(item) ? generateSpecial(item, content): generate(item.members, content, false);
+  					if (result.isError()) return result;
+  					html += result.html;
+  				} else { // Base Type
+  					html += content + ' ';
+  				}
+  				html += suffix;
+  				
+  				if (text.trim().length != 0){ 
+  					let result = generate(items, text, true);
+  					if (result.isError()) return result;
+  					html += result.html;
+  				}
+  				return new EitherOf(null, html);
+  			}
+  		}
+  		if (alreadyFound == true) return new EitherOf(null, html);
+  		else return new EitherOf("Fadhb: ag súl le ceann de: " + items + " leanta le ' {' ag: " + text.substring(0,20));
+  	}
+  	
+  	function calculateClose(text, open, index){
+  		let firstClose = text.indexOf("}");
+  		let firstOpen = text.indexOf("{");
+  		if (firstClose == -1) return -1;
+  		else if (firstOpen == -1 || firstOpen > firstClose) {
+  			if (open == 0) return index + firstClose;
+  			else return calculateClose(text.substring(firstClose + 1), open - 1, index + firstClose + 1);
+  		} else {
+  			return calculateClose(text.substring(firstOpen + 1), open + 1, index + firstOpen + 1);
+  		}
+  	}
+  	
+  	function generateSpecial(item, content){
+  		let html = '';
+  		let prefix = '';
+
+		if (item == link) prefix = 'seoladh {';
+  		else prefix = 'uimhir {';
+  		
+  		if (!content.startsWith(prefix)) return new EitherOf("Fadhb: Is gá do " + item.name + " tosú le: " + prefix, null);
+  		let arg = content.substring(prefix.length, content.indexOf("}")).trim();
+  		content = content.substring(content.indexOf("}") + 1).trim();
+
+  	 	if (item == link) html += '<a href="' + arg + '">';
+  		else html += '<h' + arg + '>';
+  		
+  		let result = generate(item.members, content, false);
+  		if (result.isError()) return result;
+  		html += result.html;
+  		
+  		if (item == link) html += '</a>';
+  		else html += '</h' + arg + '>';
+  		
+  		return new EitherOf(null, html);
+  	}
+  </script>
+</html>

@@ -1,0 +1,48 @@
+lth {
+	eolas {
+		ainm { Mo Shuíomh Idirlíon }
+       	cursíos { Suíomh Samplach } 
+		údar { Séamus Ó Ceanainn }
+        deilbhín { http://www.iconj.com/icon.php?pid=cqtnf03jj5 }
+    }
+	corp {
+    	ceann {
+    		teideal {
+    			uimhir { 1 }
+        		nasc {
+        			seoladh { #	}
+    				g { Sampla de lth }
+    			}
+        	}
+        }
+        croí {
+        	alt {
+        		g { Seo roinnt téacs i gcorp an leathanach féin, leanta ag íomhá. }
+        	}
+			íomhá { 
+				seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg }
+			}
+		}
+		croí {
+        	alt {
+        		g { Is féidir íomhá a chur taobh istigh de nasc ionas gur féidir cliceáil ar an íomha chun gluaiseacht chuig suíomh eile }
+        	}
+        	nasc {
+        		seoladh { # }
+        		íomhá { 
+        			seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg } 
+        		 }
+        	}
+        	
+        }
+        cos {
+        	alt {
+        		g { Tá an leathanach seo ginnte ag úsáid }
+        		nasc {
+        			seoladh { # }
+        			g { lth }
+        		}
+        	}
+        }
+    }
+}
