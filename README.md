@@ -17,27 +17,27 @@ Féach sa fillteán `samplaí` chun roinnt samplaí agus na leathanaigh a ghinea
 go ghintear sna comhaid `html`. Is féidir ceann de na comhaid `txt` a úsáid chun tús a chur le do leathanach féin!
 
 ## Gnéithe
-- `lth`: An leathanach féin. Téann gach rud istigh anseo. Glacann sé le [eolas, corp]
-- `eolas`: Eolas faoin leathanach. Níl sé seo sofheicthe ar an leathanach féin. Glacann sé le [ainm, cursíos, údar, deilbhín]
-- `ainm`: Ainm an leathanaigh féin. Bun gné í seo a ghlacann le téacs
-- `cursíos`: Cur síos ar an leathanach. Bun gné í seo a ghlacann le téacs
-- `údar`: Do ainm féin. Bun gné é seo a ghlacann le téacs
-- `deilbhín`: Nasc chuig do dheilbhín féin. Bun gné í seo a ghlacann le URL
-- `corp`: Corp an leathanch féin (an cuid sofheicthe). Glacann sé le [bosca, ceann, croí, cos]
-- `bosca`: Bosca ar an leathanach gur féidir ábhair a chur ann. Glacann le [teideal, ailt]
-- `ceann`: Bosca réamhdéanta do bharr an leathanaigh. Úsáid in éineacht le cos & croí. Glacann na gnéithe céanna le bosca.
-- `croí`: Bosca réamhdéanta do chroí an leathanaigh. Úsáid in éineacht le ceann & cos. Glacann na gnéithe céanna le bosca.
-- `cos`: Bosca réamhdéanta do chos an leathanaigh. Úsáid in éineacht le ceann & croí. Glacann na gnéithe céanna le bosca.
-- `alt`: Alt nua. Glacann sé le [nasc, íomhá, g,t,l,b]
-- `teideal`: Teideal nó fotheideal. Is gá tosú le 'uimhir'. Glacann le [uimhir, nasc, g, t, l, b]
-- `íomhá`: Íomhá (pictiúr). Déantar an íomhá a lódáil ón seoladh tugtha in 'url'. Glacann le [url] amháin.
-- `nasc`: Nasc chuig leathanach eile. Is gá tosú le 'url'. Glacann le [url, íomhá, g, t, l, b]
-- `url`: Bun gné í seo a ghlacann le téacs i bhfoirm 'url'. Úsáid 'mailto:mosheoladh@gmail.com' chun nasc teagmhála a chruthú.
-- `uimhir`: Bun gné í seo a ghlacann le uimhir idir 1-6 don teideal (1 is mó, 6 is lú).
-- `g`: Gnáth-théacs. Bun gné é seo a ghlacann le téacs
-- `t`: Téacs 'trom'. Bun gné é seo a ghlacann le téacs
-- `l`: Téacs 'lag'. Bun gné é seo a ghlacann le téacs
-- `b`: Téacs le 'béim'. Bun gné é seo a ghlacann le téacs
+- `lth:`  An leathanach féin. Téann gach rud istigh anseo. Glacann sé le *[eolas, corp]*
+- `eolas:`  Eolas faoin leathanach. Níl sé seo sofheicthe ar an leathanach féin. Glacann sé le *[ainm, cursíos, údar, deilbhín]*
+- `ainm:`  Ainm an leathanaigh féin. Bun gné í seo a ghlacann le téacs
+- `cursíos:`  Cur síos ar an leathanach. Bun gné í seo a ghlacann le téacs
+- `údar:`  Do ainm féin. Bun gné é seo a ghlacann le téacs
+- `deilbhín:`  Nasc chuig do dheilbhín féin. Bun gné í seo a ghlacann le seoladh i bhfoirm URL
+- `corp:`  Corp an leathanch féin (an cuid sofheicthe). Glacann sé le *[bosca, ceann, croí, cos]*
+- `bosca:`  Bosca ar an leathanach gur féidir ábhair a chur ann. Glacann le *[teideal, ailt]*
+- `ceann:`  Bosca réamhdéanta do bharr an leathanaigh. Úsáid in éineacht le cos & croí. Glacann na gnéithe céanna le bosca.
+- `croí:`  Bosca réamhdéanta do chroí an leathanaigh. Úsáid in éineacht le ceann & cos.Glacann na gnéithe céanna le bosca.
+- `cos:`   Bosca réamhdéanta do chos an leathanaigh.Úsáid in éineacht le ceann & croí. Glacann na gnéithe céanna le bosca.
+- `alt:`  Alt nua. Glacann sé le *[nasc, íomhá, g,t,l,b]*
+- `teideal:`  Teideal nó fotheideal. Is gá tosú le 'uimhir'. Glacann le *[uimhir, nasc, g, t, l, b]*
+- `íomhá:`  Íomhá (pictiúr). Déantar an íomhá a lódáil ón URL tugtha in 'seoladh'. Glacann le *[seoladh]* amháin.
+- `nasc:`  Nasc chuig leathanach eile. Is gá tosú le 'seoladh'. Glacann le *[seoladh, íomhá, g, t, l, b]*
+- `seoladh:`  Bun gné í seo a ghlacann le téacs i bhfoirm 'URL'. Úsáid `mailto:mosheoladh@gmail.com` chun nasc teagmhála a chruthú.
+- `uimhir:`  Bun gné í seo a ghlacann le uimhir idir 1-6 don teideal (1 is mó, 6 is lú).
+- `g:`  Gnáth-théacs. Bun gné é seo a ghlacann le téacs
+- `t:`  Téacs 'trom'. Bun gné é seo a ghlacann le téacs
+- `l:`  Téacs 'lag'. Bun gné é seo a ghlacann le téacs
+- `b:`  Téacs le 'béim'. Bun gné é seo a ghlacann le téacs
 
 ## Teagmháil
 Má tá spéis agat teagmháil a dhéanamh liom [seol ríomhphost chugam](mailto:seamusoceanainn@gmail.com) le aon fadhbanna, deacrachtaí, smaointe nó ceartúcháin.
