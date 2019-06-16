@@ -10,7 +10,7 @@ Roinnt rialacha:
 - Caithfear **spás amháin** a bheith idir ainm an ghné agus an lúibín oscailte - m.sh `ainm {`. Ní oibríonn `ainm{` nó `ainm  {` - (le dhá spás).
 - Caithfear tosú le `lth { }`
 - Ní féidir leat lúibíní folamh a bheith agat riamh. Caithfear ar a laghad gné amháin a chur i ngach péire lúibíní.
-- Is eisceacht iad na bun gnéithe. Cuirtear gnáth téacs, uimhreacha, seolta idirlíne taobh istigh de lúibíní na bun gnéithe, m.sh. `url { www.peig.ie }` nó `b { Seo téacs le béim (líne faoin téacs) a thaispeántar ar an leathanach ginnte. }
+- Is eisceacht iad na bun gnéithe. Cuirtear gnáth téacs, uimhreacha, seolta idirlíne taobh istigh de lúibíní na bun gnéithe, m.sh. `seoladh { www.peig.ie }` nó `b { Seo téacs le béim (líne faoin téacs) a thaispeántar ar an leathanach ginnte. }`
 
 Féach sa fillteán `samplaí` chun roinnt samplaí agus na leathanaigh a ghineann siad a fheiceáil. Tá an téacs lth sna comhaid `txt` agus tá na leathanaigh
 go ghintear sna comhaid `html`. Is féidir ceann de na comhaid `txt` a úsáid chun tús a chur le do leathanach féin!
