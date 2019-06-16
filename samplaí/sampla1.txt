@@ -7,42 +7,42 @@ lth {
 	}
 	corp {
 		ceann {
-    		teideal {
-    			uimhir { 1 }
-        		nasc {
-        			seoladh { https://github.com/soceanainn/lth/samplaí }
-    				g { Sampla de lth }
-    			}
-        	}
-        }
-	croí {
-        	alt {
-        		g { Seo roinnt téacs i gcorp an leathanach féin, leanta ag íomhá. }
-		}
-		íomhá { 
-			seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg }
-		}
-	}
-	croí {
-        	alt {
-        		g { Is féidir íomhá a chur taobh istigh de nasc ionas gur féidir cliceáil ar an íomha chun gluaiseacht chuig suíomh eile }
-        	}
-        	nasc {
-        		seoladh { www.google.ie }
-        		íomhá { 
-        			seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg } 
-        		 }
-        	}	
-        }
-        cos {
-        	alt {
-        		g { Tá an leathanach seo ginnte ag úsáid }
-        		nasc {
-        			seoladh { https://github.com/soceanainn/lth }
-        			g { lth }
+    			teideal {
+    				uimhir { 1 }
+        			nasc {
+        				seoladh { https://github.com/soceanainn/lth/samplaí }
+    					g { Sampla de lth }
+    				}
         		}
         	}
-        }
-    }
+		croí {
+        		alt {
+        			g { Seo roinnt téacs i gcorp an leathanach féin, leanta ag íomhá. }
+			}
+			íomhá { 
+				seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg }
+			}
+		}
+		croí {
+        		alt {
+        			g { Is féidir íomhá a chur taobh istigh de nasc ionas gur féidir cliceáil ar an íomha chun gluaiseacht chuig suíomh eile }
+        		}
+        		nasc {
+        			seoladh { www.google.ie }
+        			íomhá { 
+        				seoladh { https://cdn8.bigcommerce.com/s-in5je/images/stencil/1280x1280/products/4014/10665/cat-hat-1__10157.1513735844.jpg } 
+        		 	}
+        		}	
+        	}
+        	cos {
+        		alt {
+        			g { Tá an leathanach seo ginnte ag úsáid }
+        			nasc {
+        				seoladh { https://github.com/soceanainn/lth }
+        				g { lth }
+        			}
+        		}
+        	}
+	}
 }
 
